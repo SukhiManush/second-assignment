@@ -146,7 +146,9 @@ td img{
     grid-template-rows: repeat(2,1fr);
     grid-gap: 0;
 }
-/* footer design */
+
+
+/* footer section design  */
 footer{
     display: flex;
     flex-direction: column;
@@ -179,3 +181,44 @@ footer{
 footer p{
     font-size: 20px;
 }
+/* media qurey */
+@media only screen and (max-width:688px) {
+    main{
+        display:flex;
+        width: 110%;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+    .player-container{
+        justify-content: center;
+    }
+    .banner-item, .players, .rankings,.extra-section {
+        display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       grid-gap: 50px;
+    }
+    
+    .left-bar{
+        margin: 10px;
+    }
+   
+    .left-side img{
+        height: 350px;
+        width: 350px;
+    }
+    .right-side img{
+        height: 350px;
+        width: 350px;
+    }
+    footer{
+        margin-top: 950px;
+    }
+.footer-icon{
+    height: 180px;
+    width: 360px;
+}
+}
+
