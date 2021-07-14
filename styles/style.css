@@ -173,6 +173,7 @@ footer p{
 @media only screen and (max-width:688px) {
     main{
         display:flex;
+        flex-wrap: wrap;
         width: 100%;
     }
     .playres, .ranking-container, .extra-container, .footer-container{
@@ -218,11 +219,11 @@ footer p{
    }
     .left-side img{
         height: 350px;
-        width: 100%;
+        width: 105%;
     }
     .right-side img{
         height: 350px;
-        width: 350px;
+        width: 105%;
     }
     footer{
         margin-top: 950px;
