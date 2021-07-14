@@ -169,6 +169,7 @@ footer p{
 }
 
 /* media qurey */
+/* for mobile devices */
 @media only screen and (max-width:688px) {
     main{
         display:flex;
@@ -226,4 +227,14 @@ footer p{
     width: 280px;
 }
 }
-
+/* for tablet */
+@media only screen and (min-width:688px) and (max-width:980px) {
+    .banner-item, .players, .rankings, .extra-section{
+        display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-gap: 40px;
+    }
+    .extra-section{
+        display: flex;
+    }
+}
