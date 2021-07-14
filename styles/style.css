@@ -185,15 +185,30 @@ footer p{
 @media only screen and (max-width:688px) {
     main{
         display:flex;
-        width: 110%;
+        width: 120%;
     }
     .container{
         display: flex;
         align-items: center;
         text-align: left;
+        
     }
     .player-container{
         justify-content: center;
+    }
+    .banner-image{
+        margin: 50px;
+    }
+    .banner-image img{
+        height: 350px;
+        width: 400px;
+    }
+    .banner-title{
+        font-size: 40px;
+    }
+    .banner-details{
+    margin-left: 100px;
+
     }
     .banner-item, .players, .rankings,.extra-section {
         display: grid;
@@ -217,8 +232,8 @@ footer p{
         margin-top: 950px;
     }
 .footer-icon{
-    height: 180px;
-    width: 360px;
+    height: 150px;
+    width: 280px;
 }
 }
 
